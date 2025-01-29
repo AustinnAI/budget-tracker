@@ -21,5 +21,5 @@ const db = getFirestore(app);
 
 
 
-console.log("Firebase Initialized:", app.name); // ✅ Log initialization
+console.log("Firebase Initialized:", app.name);
 export { app, db, auth };
